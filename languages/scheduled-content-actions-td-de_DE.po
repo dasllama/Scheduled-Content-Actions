@@ -1,0 +1,109 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Scheduled Content Actions v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-09-17 09:01:09+0000\n"
+"Last-Translator: admin <t.herzog@inpsyde.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: inc/actions.php:11
+#@ scheduled-content-actions-td
+msgid "Stick Content"
+msgstr "Oben halten"
+
+#: inc/actions.php:12
+#@ scheduled-content-actions-td
+msgid "Unstick Content"
+msgstr "Nicht mehr oben halten"
+
+#: inc/actions.php:13
+#@ scheduled-content-actions-td
+msgid "Draft Content"
+msgstr "als Entwurf speichern"
+
+#: inc/actions.php:14
+#@ scheduled-content-actions-td
+msgid "Trash Content"
+msgstr "in den Papierkorb verschieben"
+
+#: inc/actions.php:15
+#@ scheduled-content-actions-td
+msgid "Delete Content"
+msgstr "Löschen"
+
+#: inc/actions.php:16
+#@ scheduled-content-actions-td
+msgid "Open Comments"
+msgstr "Kommentare öffnen"
+
+#: inc/actions.php:17
+#@ scheduled-content-actions-td
+msgid "Close Comments"
+msgstr "Kommentare schließen"
+
+#: inc/ajax-add-action.php:18
+#@ scheduled-content-actions-td
+msgid "The time is in the past!"
+msgstr "Diese Zeit ist in der Vergangenheit!"
+
+#: inc/ajax-add-action.php:28
+#: inc/meta-box.php:28
+#@ scheduled-content-actions-td
+msgid "Date"
+msgstr "Datum"
+
+#: inc/ajax-add-action.php:29
+#: inc/meta-box.php:27
+#@ scheduled-content-actions-td
+msgid "Action"
+msgstr "Aktion"
+
+#: inc/meta-box.php:11
+#@ scheduled-content-actions-td
+msgid "Scheduled Post Actions"
+msgstr "Scheduled Post Actions"
+
+#: inc/meta-box.php:53
+#@ scheduled-content-actions-td
+msgid "Add a new scheduled action below."
+msgstr "Füge eine neue zeitgesteuerte Aktion unten hinzu."
+
+#: inc/meta-box.php:56
+#@ scheduled-content-actions-td
+msgid "Perform"
+msgstr "Führe aus"
+
+#: inc/meta-box.php:59
+#@ scheduled-content-actions-td
+msgid "Choose an action"
+msgstr "Wähle eine Aktion"
+
+#: inc/meta-box.php:65
+#@ scheduled-content-actions-td
+msgid "on"
+msgstr "am"
+
+#: inc/meta-box.php:73
+#@ scheduled-content-actions-td
+msgid "at"
+msgstr "um"
+
+#: inc/meta-box.php:77
+#@ default
+msgid "Save"
+msgstr ""
+

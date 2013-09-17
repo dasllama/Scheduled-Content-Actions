@@ -1,0 +1,50 @@
+/**
+ * Feature Name:	Styles
+ * Author:			HerrLlama for Inpsyde GmbH
+ * Author URI:		http://inpsyde.com
+ * Licence:			GPLv3
+ */
+ 
+.sca-type-container {
+	display: inline-block;
+}
+
+table#sca {
+	width: 100%;
+	background: #fff;
+	margin: 0 0 10px;
+	border-spacing: 0;
+	border: 1px solid #dfdfdf;
+	border-bottom: none;
+}
+
+table#sca thead th {
+	text-align: left;
+	background: #f1f1f1;
+}
+
+table#sca thead th.left {
+	width: 30%;
+	vertical-align: top;
+}
+
+table#sca thead th,
+table#sca tbody td {
+	vertical-align: top;
+	padding: 5px 8px 8px;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+.remove-action {
+	width: 10px;
+	height: 10px;
+	cursor: pointer;
+	margin: 3px 0 0 0;
+	display: inline-block;
+	text-decoration: none;
+	background: url(../img/xit.gif);
+}
+
+.remove-action:hover {
+	background-position: 10px 0px;
+}
