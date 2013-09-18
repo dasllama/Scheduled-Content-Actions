@@ -2,7 +2,7 @@
 /**
  * Plugin Name:	Scheduled Content Actions
  * Description:	This plugin provides several actions which affects the behaviour of a post entry. It also handles custom post types and products for woocommerce/jjigoshop.
- * Version:		1.0
+ * Version:		1.0.1
  * Author:		HerrLlama for Inpsyde GmbH
  * Author URI:	http://inpsyde.com
  * Licence:		GPLv3
