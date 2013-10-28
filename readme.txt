@@ -1,9 +1,9 @@
 === Scheduled Content Actions ===
-Contributors: Inpsyde, HerrLlama
+Contributors: inpsyde, HerrLlama
 Donate Link: http://inpsyde.com
 Tags: scheduled content actions, unstick post, stick post, comments, schedule, scheduled delete, scheduled trash, scheduled actions
 Requires at least: 3.6
-Tested up to: 3.6
+Tested up to: 3.7.1
 Stable tag: 1.0.1
 License: GPLv3
 
