@@ -6,7 +6,8 @@
  * Licence:			GPLv3
  */
 
-add_action( 'admin_init', function() {
+add_action( 'admin_init', 'sca_load_styles' );
+function sca_load_styles() {
 
 	$stylename = 'admin.css';
 	if ( defined( 'WP_DEBUG' ) )

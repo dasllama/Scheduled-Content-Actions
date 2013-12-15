@@ -6,7 +6,8 @@
  * Licence:			GPLv3
  */
 
-add_action( 'admin_enqueue_scripts', function() {
+add_action( 'admin_enqueue_scripts', 'sca_load_scripts' );
+function sca_load_scripts() {
 
 	$script_suffix = '.js';
 	if ( defined( 'WP_DEBUG' ) )
