@@ -22,4 +22,4 @@ function sca_load_scripts() {
 	);
 
 	wp_enqueue_script( 'sca-admin-scripts' );
-} );
+}

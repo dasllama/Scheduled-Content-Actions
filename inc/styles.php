@@ -18,4 +18,4 @@ function sca_load_styles() {
 		plugin_dir_url( __FILE__ ) . '../css/' . $stylename
 	);
 	wp_enqueue_style( 'sca-admin-styles' );
-} );
+};
