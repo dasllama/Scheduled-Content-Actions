@@ -49,6 +49,7 @@ function sca_metabox( $post ) {
 	?></div><?php
 
 	// new actions for this post
+	$timezone = current_time( 'timestamp' );
 	?>
 	<p><strong><?php _e( 'Add a new scheduled action below.', SCA_TEXTDOMAIN ); ?></strong></p>
 	<div class="sca-new-action-container">
@@ -71,9 +72,9 @@ function sca_metabox( $post ) {
 		</select>.
 		<input type="number" class="small-text" id="sca-date-year" name="scadateyear" min="<?php echo date( 'Y' ); ?>" step="1" value="<?php echo date( 'Y' ); ?>" />
 		<?php _e( 'at', SCA_TEXTDOMAIN ); ?>
-		<input type="number" class="small-text" id="sca-date-hour" name="scadatehour" min="0" max="24" step="1" value="<?php echo date( 'H' ); ?>" />:
-		<input type="number" class="small-text" id="sca-date-min" name="scadatemin" min="0" max="60" step="1" value="<?php echo date( 'i' ); ?>" />:
-		<input type="number" class="small-text" id="sca-date-sec" name="scadatesec" min="0" max="60" step="1" value="<?php echo date( 's' ); ?>" />
+		<input type="number" class="small-text" id="sca-date-hour" name="scadatehour" min="0" max="24" step="1" value="<?php echo date( 'H', $timezone ); ?>" />:
+		<input type="number" class="small-text" id="sca-date-min" name="scadatemin" min="0" max="60" step="1" value="<?php echo date( 'i', $timezone ); ?>" />:
+		<input type="number" class="small-text" id="sca-date-sec" name="scadatesec" min="0" max="60" step="1" value="<?php echo date( 's', $timezone ); ?>" />
 		<input type="submit" name="scanewaction" id="sca-newaction-submit" class="button" value="<?php _e( 'Save' ); ?>">
 	</div>
 	<?php
