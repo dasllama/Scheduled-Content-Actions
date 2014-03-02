@@ -1,0 +1,105 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Scheduled Content Actions v1.0.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-01-22 13:36+0100\n"
+"Last-Translator: Anders Täpp <anders@idebild.se>\n"
+"Language-Team: Anders Täpp <anders@idebild.se>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"Language: sv_SE\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ scheduled-content-actions-td
+#: inc/actions.php:11
+msgid "Stick Content"
+msgstr "Klistring\t"
+
+# @ scheduled-content-actions-td
+#: inc/actions.php:12
+msgid "Unstick Content"
+msgstr "Ta bort klistring"
+
+# @ scheduled-content-actions-td
+#: inc/actions.php:13
+msgid "Draft Content"
+msgstr "Gör till utkast"
+
+# @ scheduled-content-actions-td
+#: inc/actions.php:14
+msgid "Trash Content"
+msgstr "Flytta till papperskorg"
+
+# @ scheduled-content-actions-td
+#: inc/actions.php:15
+msgid "Delete Content"
+msgstr "Radera"
+
+# @ scheduled-content-actions-td
+#: inc/actions.php:16
+msgid "Open Comments"
+msgstr "Öppna kommentering"
+
+# @ scheduled-content-actions-td
+#: inc/actions.php:17
+msgid "Close Comments"
+msgstr "Stäng kommentering"
+
+# @ scheduled-content-actions-td
+#: inc/ajax-add-action.php:18
+msgid "The time is in the past!"
+msgstr "Datumet har redan passerats!"
+
+# @ scheduled-content-actions-td
+#: inc/ajax-add-action.php:28 inc/meta-box.php:27
+msgid "Date"
+msgstr "Datum"
+
+# @ scheduled-content-actions-td
+#: inc/ajax-add-action.php:29 inc/meta-box.php:28
+msgid "Action"
+msgstr "Åtgärd"
+
+# @ scheduled-content-actions-td
+#: inc/meta-box.php:11
+msgid "Scheduled Post Actions"
+msgstr "Schemalagda åtgärder"
+
+# @ scheduled-content-actions-td
+#: inc/meta-box.php:53
+msgid "Add a new scheduled action below."
+msgstr "Lägg till en ny schemalagd åtgärd här nedan."
+
+# @ scheduled-content-actions-td
+#: inc/meta-box.php:56
+msgid "Perform"
+msgstr "Åtgärd: "
+
+# @ scheduled-content-actions-td
+#: inc/meta-box.php:59
+msgid "Choose an action"
+msgstr "Välj en åtgärd"
+
+# @ scheduled-content-actions-td
+#: inc/meta-box.php:65
+msgid "on"
+msgstr "den "
+
+# @ scheduled-content-actions-td
+#: inc/meta-box.php:73
+msgid "at"
+msgstr " kl. "
+
+# @ default
+#: inc/meta-box.php:77
+msgid "Save"
+msgstr "Spara"
