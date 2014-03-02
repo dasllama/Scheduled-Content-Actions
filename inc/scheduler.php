@@ -15,8 +15,12 @@ function sca_scheduler() {
 	
 	foreach ( $current_actions as $post_id => $timing ) {
 		foreach ( $timing as $time => $actions ) {
-			if ( $time > time() )
+			
+			// check if we need to do this action
+			if ( $time > current_time( 'timestamp' ) )
 				continue;
+			
+			// do the action
 			foreach ( $actions as $action ) {
 				do_action( 'sca_do_' . $action, $post_id );
 				sca_delete_action( $post_id, $action, $time );

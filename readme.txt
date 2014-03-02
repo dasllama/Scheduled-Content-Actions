@@ -16,7 +16,6 @@ This plugin provides several actions which affects the behaviour of a post entry
 = 1.0.3 =
 * Added Sweden Languages [Max Beta](http://profiles.wordpress.org/max-beta/)
 * Added column in overview
-* Added email reminder
 * Fixed timezone problems
 * Compatibiliy-Tests for WordPress 3.8.1
 

@@ -55,7 +55,7 @@ function sca_init() {
 	// ajax actions
 	require_once dirname( __FILE__ ) . '/inc/ajax-add-action.php';
 	require_once dirname( __FILE__ ) . '/inc/ajax-delete-action.php';
-
+	
 	// meta box
 	require_once dirname( __FILE__ ) . '/inc/meta-box.php';
 }
