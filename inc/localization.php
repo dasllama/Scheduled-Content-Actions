@@ -7,4 +7,4 @@
  */
 
 // localization
-load_plugin_textdomain( SCA_TEXTDOMAIN, FALSE, dirname( plugin_basename( __FILE__ ) ) . '/../languages' );
+load_plugin_textdomain( 'scheduled-content-actions-td', FALSE, dirname( plugin_basename( __FILE__ ) ) . '/../languages' );

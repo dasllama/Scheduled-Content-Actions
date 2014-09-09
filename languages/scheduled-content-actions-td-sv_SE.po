@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Scheduled Content Actions v1.0.2\n"
+"Project-Id-Version: Scheduled Content Actions v1.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-01-22 13:36+0100\n"
+"PO-Revision-Date: 2014-09-09 08:42:07+0000\n"
 "Last-Translator: Anders Täpp <anders@idebild.se>\n"
 "Language-Team: Anders Täpp <anders@idebild.se>\n"
 "MIME-Version: 1.0\n"
@@ -11,95 +11,190 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Poedit 1.6.3\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
-"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
 "X-Poedit-Basepath: ../\n"
-"X-Textdomain-Support: yes\n"
-"Language: sv_SE\n"
+"X-Poedit-Bookmarks: \n"
 "X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
 
-# @ scheduled-content-actions-td
-#: inc/actions.php:11
-msgid "Stick Content"
-msgstr "Klistring\t"
-
-# @ scheduled-content-actions-td
-#: inc/actions.php:12
-msgid "Unstick Content"
-msgstr "Ta bort klistring"
-
-# @ scheduled-content-actions-td
-#: inc/actions.php:13
-msgid "Draft Content"
-msgstr "Gör till utkast"
-
-# @ scheduled-content-actions-td
-#: inc/actions.php:14
-msgid "Trash Content"
-msgstr "Flytta till papperskorg"
-
-# @ scheduled-content-actions-td
-#: inc/actions.php:15
-msgid "Delete Content"
-msgstr "Radera"
-
-# @ scheduled-content-actions-td
-#: inc/actions.php:16
+#: inc/actions.php:22
+#@ scheduled-content-actions-td
 msgid "Open Comments"
 msgstr "Öppna kommentering"
 
-# @ scheduled-content-actions-td
-#: inc/actions.php:17
+#: inc/actions.php:23
+#@ scheduled-content-actions-td
 msgid "Close Comments"
 msgstr "Stäng kommentering"
 
-# @ scheduled-content-actions-td
-#: inc/ajax-add-action.php:18
+#: inc/actions.php:116
+#@ scheduled-content-actions-td
 msgid "The time is in the past!"
 msgstr "Datumet har redan passerats!"
 
-# @ scheduled-content-actions-td
-#: inc/ajax-add-action.php:28 inc/meta-box.php:27
+#: inc/actions.php:126
+#: inc/meta-box.php:79
+#@ scheduled-content-actions-td
 msgid "Date"
 msgstr "Datum"
 
-# @ scheduled-content-actions-td
-#: inc/ajax-add-action.php:29 inc/meta-box.php:28
+#: inc/actions.php:127
+#: inc/meta-box.php:80
+#@ scheduled-content-actions-td
 msgid "Action"
 msgstr "Åtgärd"
 
-# @ scheduled-content-actions-td
-#: inc/meta-box.php:11
+#: inc/meta-box.php:16
+#@ scheduled-content-actions-td
 msgid "Scheduled Post Actions"
 msgstr "Schemalagda åtgärder"
 
-# @ scheduled-content-actions-td
-#: inc/meta-box.php:53
-msgid "Add a new scheduled action below."
-msgstr "Lägg till en ny schemalagd åtgärd här nedan."
-
-# @ scheduled-content-actions-td
-#: inc/meta-box.php:56
-msgid "Perform"
-msgstr "Åtgärd: "
-
-# @ scheduled-content-actions-td
-#: inc/meta-box.php:59
+#: inc/meta-box.php:37
+#@ scheduled-content-actions-td
 msgid "Choose an action"
 msgstr "Välj en åtgärd"
 
-# @ scheduled-content-actions-td
-#: inc/meta-box.php:65
-msgid "on"
-msgstr "den "
-
-# @ scheduled-content-actions-td
-#: inc/meta-box.php:73
-msgid "at"
-msgstr " kl. "
-
-# @ default
-#: inc/meta-box.php:77
+#: inc/meta-box.php:62
+#@ default
 msgid "Save"
 msgstr "Spara"
+
+#: inc/actions.php:16
+#@ scheduled-content-actions-td
+msgid "Stick Post"
+msgstr ""
+
+#: inc/actions.php:17
+#@ scheduled-content-actions-td
+msgid "Unstick Post"
+msgstr ""
+
+#: inc/actions.php:18
+#@ scheduled-content-actions-td
+msgid "Private Post"
+msgstr ""
+
+#: inc/actions.php:19
+#@ scheduled-content-actions-td
+msgid "Draft Post"
+msgstr ""
+
+#: inc/actions.php:20
+#@ scheduled-content-actions-td
+msgid "Trash Post"
+msgstr ""
+
+#: inc/actions.php:21
+#@ scheduled-content-actions-td
+msgid "Delete Post"
+msgstr ""
+
+#: inc/actions.php:24
+#: inc/scripts.php:37
+#@ scheduled-content-actions-td
+msgid "Change Title"
+msgstr ""
+
+#: inc/actions.php:25
+#@ scheduled-content-actions-td
+msgid "Add Term"
+msgstr ""
+
+#: inc/actions.php:26
+#@ scheduled-content-actions-td
+msgid "Delete Term"
+msgstr ""
+
+#: inc/actions.php:27
+#@ scheduled-content-actions-td
+msgid "Add Meta"
+msgstr ""
+
+#: inc/actions.php:28
+#@ scheduled-content-actions-td
+msgid "Update Meta"
+msgstr ""
+
+#: inc/actions.php:29
+#@ scheduled-content-actions-td
+msgid "Delete Meta"
+msgstr ""
+
+#: inc/actions.php:193
+#@ scheduled-content-actions-td
+msgid "Choose a taxonomy"
+msgstr ""
+
+#: inc/actions.php:201
+#@ scheduled-content-actions-td
+msgid "Term Slug"
+msgstr ""
+
+#: inc/actions.php:217
+#: inc/meta-box.php:94
+#: inc/scripts.php:35
+#@ scheduled-content-actions-td
+msgid "Meta Name"
+msgstr ""
+
+#: inc/actions.php:221
+#@ scheduled-content-actions-td
+msgid "Value"
+msgstr ""
+
+#: inc/actions.php:237
+#@ scheduled-content-actions-td
+msgid "New Title"
+msgstr ""
+
+#: inc/admin-columns.php:18
+#@ scheduled-content-actions-td
+msgid "Scheduled Action"
+msgstr ""
+
+#: inc/admin-columns.php:57
+#@ scheduled-content-actions-td
+msgid "No actions scheduled"
+msgstr ""
+
+#: inc/meta-box.php:33
+#@ scheduled-content-actions-td
+msgid "Add an action"
+msgstr ""
+
+#: inc/meta-box.php:46
+#@ scheduled-content-actions-td
+msgid "Choose the date"
+msgstr ""
+
+#: inc/meta-box.php:56
+#@ scheduled-content-actions-td
+msgid "Choose the time"
+msgstr ""
+
+#: inc/meta-box.php:92
+#: inc/scripts.php:33
+#@ scheduled-content-actions-td
+msgid "Taxonomy"
+msgstr ""
+
+#: inc/meta-box.php:92
+#: inc/scripts.php:34
+#@ scheduled-content-actions-td
+msgid "Term"
+msgstr ""
+
+#: inc/meta-box.php:94
+#: inc/scripts.php:36
+#@ scheduled-content-actions-td
+msgid "Meta Value"
+msgstr ""
+
+#: inc/meta-box.php:96
+#@ scheduled-content-actions-td
+msgid "Title"
+msgstr ""
+

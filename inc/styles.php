@@ -1,12 +1,17 @@
 <?php
 /**
- * Feature Name:	Styles
- * Author:			HerrLlama for Inpsyde GmbH
- * Author URI:		http://inpsyde.com
- * Licence:			GPLv3
+ * Feature Name: Styles
+ * Author:       HerrLlama for wpcoding.de
+ * Author URI:   http://wpcoding.de
+ * Licence:      GPLv3
  */
 
-add_action( 'admin_init', 'sca_load_styles' );
+/**
+ * Registers all the needed styles
+ *
+ * @wp-hook	admin_init
+ * @return	void
+ */
 function sca_load_styles() {
 
 	$stylename = 'admin.css';
