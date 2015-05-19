@@ -1,3 +1,7 @@
+=== ATTANTION ===
+
+The development of this plugin is inactive!
+
 === Scheduled Content Actions ===
 Contributors: wpcodingde, inpsyde, HerrLlama
 Donate Link: http://inpsyde.com
