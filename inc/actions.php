@@ -185,7 +185,7 @@ function sca_load_additional_form_data() {
  */
 function sca_lafd_terms() {
 
-	$taxonomies = get_taxonomies( NULL, 'objects' );
+	$taxonomies = get_object_taxonomies( get_post_type($_REQUEST[ 'post_id' ]), 'objects' );
 	?>
 	<p>
 		<label for="sca-term-taxonomy">
