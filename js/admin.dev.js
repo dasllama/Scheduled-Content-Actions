@@ -34,7 +34,8 @@
 					// load the additional form data via the action type
 					var postVars = {
 						action: 'sca_load_additional_form_data',
-						type: type
+						type: type,
+						post_id: $( '#post_ID' ).val()
 					}
 					$.post( ajaxurl, postVars, function( response ) {
 						$( '.sca-additional-form-data' ).html( '<hr>' + response );
