@@ -39,9 +39,34 @@
 					}
 					$.post( ajaxurl, postVars, function( response ) {
 						$( '.sca-additional-form-data' ).html( '<hr>' + response );
+						ScheduledContentActionsScripts.bindAdditionalTaxonomyAction();
 					} );
 				}
 				return false;
+			} );
+			
+		},
+		
+		bindAdditionalTaxonomyAction: function() {
+			
+			$( document ).on( 'change', '#sca-term-taxonomy', function() {
+
+				// reset box
+				$( '.sca-additional-taxonomy-data' ).html( '' );
+				
+				// get the type
+				var tax = $( this ).val();
+								
+				// load the additional form data via the action type
+				var postVars = {
+					action: 'sca_load_additional_form_data',
+					type: 'tax',
+					tax: tax
+				}
+				$.post( ajaxurl, postVars, function( response ) {
+					$( '.sca-additional-taxonomy-data' ).html( '<hr>' + response );
+				} );
+			
 			} );
 			
 		},
