@@ -41,6 +41,7 @@ function sca_metabox( $post ) {
 				</select>
 			</p>
 			<div class="sca-additional-form-data"></div>
+			<div class="sca-additional-taxonomy-data"></div>
 			<hr>
 			<p>
 				<label><strong><?php _e( 'Choose the date', 'scheduled-content-actions-td' ); ?></strong></label><br />
