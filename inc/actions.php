@@ -173,6 +173,9 @@ function sca_load_additional_form_data() {
 		case 'change_title':
 			sca_lafd_title();
 			break;
+		case 'tax':
+			sca_lafd_slugs();
+			break;
 	}
 
 	exit;
@@ -185,7 +188,7 @@ function sca_load_additional_form_data() {
  */
 function sca_lafd_terms() {
 
-	$taxonomies = get_taxonomies( NULL, 'objects' );
+	$taxonomies = get_object_taxonomies( get_post_type($_REQUEST[ 'post_id' ]), 'objects' );
 	?>
 	<p>
 		<label for="sca-term-taxonomy">
@@ -197,9 +200,30 @@ function sca_lafd_terms() {
 			</select>
 		</label>
 	</p>
+	<?php
+	exit;
+}
+
+/**
+ * Form inputs for the terms called at sca_load_additional_taxonomy_data()
+ *
+ * @return	void
+ */
+function sca_lafd_slugs() {
+
+	$categories = get_terms( array(
+		'taxonomy' => $_REQUEST[ 'tax' ]
+	));
+	?>
 	<p>
-		<label for="sca-term-slug"><strong><?php _e( 'Term Slug', 'scheduled-content-actions-td' ); ?></strong></label><br />
-		<input type="text" name="scatermslug" id="sca-term-slug" value="" class="large-text" />
+		<label for="sca-term-slug">
+			<select class="large-text" name="scatermslug" id="sca-term-slug">
+				<option value=""><?php _e( 'Choose a term', 'scheduled-content-actions-td' ); ?></option>
+				<?php foreach ( $categories as $category ) : ?>
+					<option value="<?php echo $category->slug; ?>"><?php echo $category->name; ?></option>
+				<?php endforeach; ?>
+			</select>
+		</label>
 	</p>
 	<?php
 	exit;
