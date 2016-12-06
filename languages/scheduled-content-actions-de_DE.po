@@ -1,0 +1,182 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Scheduled Content Actions\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-06 11:06+0000\n"
+"PO-Revision-Date: 2016-12-06 11:27+0000\n"
+"Last-Translator: admin <t.herzog@inpsyde.com>\n"
+"Language-Team: German\n"
+"Language: de-DE\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: application/helper.php:81
+msgid "Stick Post"
+msgstr "Eintrag anheften"
+
+#: application/helper.php:82
+msgid "Unstick Post"
+msgstr "Eintrag nicht anheften"
+
+#: application/helper.php:83
+msgid "Private Post"
+msgstr "Eintrag privat setzen"
+
+#: application/helper.php:84
+msgid "Draft Post"
+msgstr "Eintrag als Entwurf"
+
+#: application/helper.php:85
+msgid "Trash Post"
+msgstr "Eintrag in Papierkorb"
+
+#: application/helper.php:86
+msgid "Delete Post"
+msgstr "Eintrag löschen"
+
+#: application/helper.php:87
+msgid "Update Post Date"
+msgstr "Eintragsdatum aktualisieren"
+
+#: application/helper.php:88 application/helper.php:90
+msgid "Open Comments"
+msgstr "Kommentare öffnen"
+
+#: application/helper.php:89 application/helper.php:91
+msgid "Close Comments"
+msgstr "Kommentare schließen"
+
+#: application/helper.php:92 application/backend/scripts.php:67
+msgid "Change Title"
+msgstr "Titel ändern"
+
+#: application/helper.php:93
+msgid "Add Term"
+msgstr "Term hinzufügen"
+
+#: application/helper.php:94
+msgid "Delete Term"
+msgstr "Term löschen"
+
+#: application/helper.php:95
+msgid "Add Meta"
+msgstr "Meta hinzufügen"
+
+#: application/helper.php:96
+msgid "Update Meta"
+msgstr "Meta aktualisieren"
+
+#: application/helper.php:97
+msgid "Delete Meta"
+msgstr "Meta löschen"
+
+#: application/backend/action-helper.php:98
+msgid "The time is in the past!"
+msgstr "Das ist in der Vergangenheit!"
+
+#: application/backend/action-helper.php:108
+#: application/backend/dashboard-widget.php:45
+#: application/backend/meta-box.php:82
+msgid "Date"
+msgstr "Datum"
+
+#: application/backend/action-helper.php:109
+#: application/backend/dashboard-widget.php:47
+#: application/backend/meta-box.php:83
+msgid "Action"
+msgstr "Aktion"
+
+#: application/backend/action-helper.php:181
+msgid "Choose a taxonomy"
+msgstr "Taxonomie wählen"
+
+#: application/backend/action-helper.php:206
+msgid "Choose a term"
+msgstr "Term wählen"
+
+#: application/backend/action-helper.php:226
+#: application/backend/meta-box.php:97 application/backend/scripts.php:65
+msgid "Meta Name"
+msgstr "Meta Name"
+
+#: application/backend/action-helper.php:230
+msgid "Value"
+msgstr "Wert"
+
+#: application/backend/action-helper.php:246
+msgid "New Title"
+msgstr "Neuer Titel"
+
+#: application/backend/admin-columns.php:19
+msgid "Scheduled Action"
+msgstr "Geplante Aktion"
+
+#: application/backend/admin-columns.php:57
+msgid "No actions scheduled"
+msgstr "keine Aktionen geplant"
+
+#. Name of the plugin
+#: application/backend/dashboard-widget.php:20
+msgid "Scheduled Content Actions"
+msgstr ""
+
+#: application/backend/dashboard-widget.php:46
+msgid "Post"
+msgstr "Eintrag"
+
+#: application/backend/meta-box.php:18
+msgid "Scheduled Post Actions"
+msgstr ""
+
+#: application/backend/meta-box.php:35
+msgid "Add an action"
+msgstr "Aktion hinzufügen"
+
+#: application/backend/meta-box.php:39
+msgid "Choose an action"
+msgstr "Aktion wählen"
+
+#: application/backend/meta-box.php:49
+msgid "Choose the date"
+msgstr "Datum wählen"
+
+#: application/backend/meta-box.php:59
+msgid "Choose the time"
+msgstr "Zeit wählen"
+
+#: application/backend/meta-box.php:95 application/backend/scripts.php:63
+msgid "Taxonomy"
+msgstr "Taxonomie"
+
+#: application/backend/meta-box.php:95 application/backend/scripts.php:64
+msgid "Term"
+msgstr "Term"
+
+#: application/backend/meta-box.php:97 application/backend/scripts.php:66
+msgid "Meta Value"
+msgstr "Wert"
+
+#: application/backend/meta-box.php:99
+msgid "Title"
+msgstr "Titel"
+
+#. Description of the plugin
+msgid ""
+"This plugin provides several actions which affects the behaviour of a post "
+"entry. It also handles custom post types and products for woocommerce."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://github.com/dasllama/Scheduled-Content-Actions"
+msgstr ""
+
+#. Author of the plugin
+msgid "Thomas 'Llama' Herzog"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://profiles.wordpress.org/dasllama"
+msgstr ""

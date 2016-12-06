@@ -1,11 +1,17 @@
 /**
  * Feature Name: Styles
- * Author:       HerrLlama for wpcoding.de
- * Author URI:   http://wpcoding.de
+ * Descriptions: Adds the needed styles
+ * Version:      1.2
+ * Author:       Thomas 'Llama' Herzog
+ * Author URI:   https://profiles.wordpress.org/dasllama
  * Licence:      GPLv3
  */
- 
-.sca-metabox {
+
+/**
+ * Basic Box
+ */
+
+#sca-box .sca-metabox {
 	float: right;
 	width: 300px;
 	margin-bottom: 10px;
@@ -15,42 +21,20 @@
 	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.04);
 }
 
-.sca-metabox.closed {
+#sca-box .sca-metabox.closed {
 	border-bottom: none;
 }
 
-.postbox h3.sca-hndle {
-	border-bottom: 1px solid #fff;
+#sca-box h3 {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.4;
+    padding: 8px 12px;
+	border-bottom: 1px solid #e5e5e5;
 }
 
-.sca-toggle-box {
-	float: right;
-	width: 27px;
-	height: 30px;
-	cursor: pointer;
-}
-
-.sca-toggle-box:before {
-	top: 0;
-	right: 12px;
-	color: #aaa;
-	speak: none;
-	content: '\f142';
-	padding: 8px 10px;
-	position: relative;
-	display: inline-block;
-	font: normal 20px/1 'dashicons';
-	text-decoration: none !important;
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-font-smoothing: antialiased;
-}
-
-.sca-metabox.closed .sca-toggle-box:before {
-	content: '\f140';
-}
-
-.sca-toggle-box:hover:before {
-	color: #777;
+#sca-box hr {
+	border-bottom: none;
 }
 
 #sca-box:after {
@@ -61,19 +45,23 @@
 	display: block;
 }
 
-.sca-current-action-container {
+#sca-box .sca-current-action-container {
 	margin-right: 325px;
 }
 
-#sca-type,
-#sca-term-taxonomy {
+#sca-box #sca-type,
+#sca-box #sca-term-taxonomy {
 	width: 100%;
 }
 
-.sca-action-box .small-text {
+#sca-box .sca-action-box .small-text {
 	padding: 4px 5px;
 	margin-top: 4px;
 }
+
+/**
+ * Display Table
+ */
 
 table#sca {
 	width: 100%;
@@ -101,16 +89,20 @@ table#sca tbody td {
 	border-bottom: 1px solid #dfdfdf;
 }
 
-.remove-action {
+/**
+ * Remove Button
+ */
+
+#sca-box .remove-action {
+    float: left;
 	width: 10px;
 	height: 10px;
 	cursor: pointer;
-	margin: 3px 0 0 0;
-	display: inline-block;
+    margin: 5px 5px 0 0;
 	text-decoration: none;
 	background: url(../img/xit.gif);
 }
 
-.remove-action:hover {
+#sca-box .remove-action:hover {
 	background-position: 10px 0px;
 }
