@@ -35,11 +35,6 @@ This plugin is available in following languages
 
 * English
 * German
-* French
-* Spanish
-* Italian
-* Dutch
-* Swedish
 
 > As developer you might be interested in the API documentation which you can find at [GitHub](https://github.com/dasllama/Scheduled-Content-Actions/wiki/Developers-Documentation)
 

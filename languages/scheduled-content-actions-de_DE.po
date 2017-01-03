@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Scheduled Content Actions\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-06 11:06+0000\n"
-"PO-Revision-Date: 2016-12-06 11:27+0000\n"
-"Last-Translator: admin <t.herzog@inpsyde.com>\n"
+"POT-Creation-Date: 2017-01-03 09:57+0000\n"
+"PO-Revision-Date: 2017-01-03 09:57+0000\n"
+"Last-Translator: admin <thomas.llama@gmail.com>\n"
 "Language-Team: German\n"
 "Language: de-DE\n"
 "Plural-Forms: nplurals=2; plural=n != 1\n"
@@ -12,6 +12,34 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco - https://localise.biz/"
+
+#. Name of the plugin
+#: application/backend/dashboard-widget.php:20
+#: application/backend/meta-box.php:18
+msgid "Scheduled Content Actions"
+msgstr ""
+
+#: application/backend/list-view-helper.php:53
+msgid "Scheduled Content"
+msgstr "Geplante Aktionen"
+
+#. Description of the plugin
+msgid ""
+"This plugin provides several actions which affects the behaviour of a post "
+"entry. It also handles custom post types and products for woocommerce."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://github.com/dasllama/Scheduled-Content-Actions"
+msgstr ""
+
+#. Author of the plugin
+msgid "Thomas 'Llama' Herzog"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://profiles.wordpress.org/dasllama"
+msgstr ""
 
 #: application/helper.php:81
 msgid "Stick Post"
@@ -39,15 +67,23 @@ msgstr "Eintrag löschen"
 
 #: application/helper.php:87
 msgid "Update Post Date"
-msgstr "Eintragsdatum aktualisieren"
+msgstr "Datum der Veröffentlichung"
 
-#: application/helper.php:88 application/helper.php:90
+#: application/helper.php:88
 msgid "Open Comments"
 msgstr "Kommentare öffnen"
 
-#: application/helper.php:89 application/helper.php:91
+#: application/helper.php:89
 msgid "Close Comments"
 msgstr "Kommentare schließen"
+
+#: application/helper.php:90
+msgid "Open Pings"
+msgstr "Öffne Pings"
+
+#: application/helper.php:91
+msgid "Close Pings"
+msgstr "Schließe Pings"
 
 #: application/helper.php:92 application/backend/scripts.php:67
 msgid "Change Title"
@@ -73,40 +109,40 @@ msgstr "Meta aktualisieren"
 msgid "Delete Meta"
 msgstr "Meta löschen"
 
-#: application/backend/action-helper.php:98
+#: application/backend/action-helper.php:108
 msgid "The time is in the past!"
 msgstr "Das ist in der Vergangenheit!"
 
-#: application/backend/action-helper.php:108
+#: application/backend/action-helper.php:118
 #: application/backend/dashboard-widget.php:45
 #: application/backend/meta-box.php:82
 msgid "Date"
 msgstr "Datum"
 
-#: application/backend/action-helper.php:109
+#: application/backend/action-helper.php:119
 #: application/backend/dashboard-widget.php:47
 #: application/backend/meta-box.php:83
 msgid "Action"
 msgstr "Aktion"
 
-#: application/backend/action-helper.php:181
+#: application/backend/action-helper.php:191
 msgid "Choose a taxonomy"
 msgstr "Taxonomie wählen"
 
-#: application/backend/action-helper.php:206
+#: application/backend/action-helper.php:216
 msgid "Choose a term"
 msgstr "Term wählen"
 
-#: application/backend/action-helper.php:226
+#: application/backend/action-helper.php:236
 #: application/backend/meta-box.php:97 application/backend/scripts.php:65
 msgid "Meta Name"
 msgstr "Meta Name"
 
-#: application/backend/action-helper.php:230
+#: application/backend/action-helper.php:240
 msgid "Value"
 msgstr "Wert"
 
-#: application/backend/action-helper.php:246
+#: application/backend/action-helper.php:256
 msgid "New Title"
 msgstr "Neuer Titel"
 
@@ -118,18 +154,9 @@ msgstr "Geplante Aktion"
 msgid "No actions scheduled"
 msgstr "keine Aktionen geplant"
 
-#. Name of the plugin
-#: application/backend/dashboard-widget.php:20
-msgid "Scheduled Content Actions"
-msgstr ""
-
 #: application/backend/dashboard-widget.php:46
 msgid "Post"
 msgstr "Eintrag"
-
-#: application/backend/meta-box.php:18
-msgid "Scheduled Post Actions"
-msgstr ""
 
 #: application/backend/meta-box.php:35
 msgid "Add an action"
@@ -162,21 +189,3 @@ msgstr "Wert"
 #: application/backend/meta-box.php:99
 msgid "Title"
 msgstr "Titel"
-
-#. Description of the plugin
-msgid ""
-"This plugin provides several actions which affects the behaviour of a post "
-"entry. It also handles custom post types and products for woocommerce."
-msgstr ""
-
-#. URI of the plugin
-msgid "https://github.com/dasllama/Scheduled-Content-Actions"
-msgstr ""
-
-#. Author of the plugin
-msgid "Thomas 'Llama' Herzog"
-msgstr ""
-
-#. Author URI of the plugin
-msgid "https://profiles.wordpress.org/dasllama"
-msgstr ""

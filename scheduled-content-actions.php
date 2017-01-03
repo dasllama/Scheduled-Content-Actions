@@ -93,6 +93,11 @@ function sca_init() {
 		require_once( $sApplicationDirectory . 'backend/meta-box.php' );
 		add_action( 'add_meta_boxes', 'sca_add_metabox' );
 
+		// list view helper
+		require_once( $sApplicationDirectory . 'backend/list-view-helper.php' );
+		add_action( 'pre_get_posts', 'sca_add_filter_to_posts_query' );
+		add_action( 'init', 'sca_register_view_filters');
+
 		// adds the admin columns
 		require_once( $sApplicationDirectory . 'backend/admin-columns.php' );
 		add_filter( 'manage_posts_columns', 'sca_columns_head' );
